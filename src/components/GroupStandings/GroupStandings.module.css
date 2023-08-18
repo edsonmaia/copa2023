@@ -1,0 +1,43 @@
+.table {
+    width: 100%;
+    max-width: 1000px;
+    margin-block: 1rem;
+    margin-inline: auto;
+    border-collapse: collapse;
+}
+
+.table tr {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+}
+
+table .esquerda {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.div_select {
+    text-align: center;
+}
+
+.div_select select {
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 5px;
+}

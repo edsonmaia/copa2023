@@ -1,0 +1,41 @@
+.cards {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+}
+
+.knockout_table {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* abas */
+body {
+    background-color: #ececec;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tabs button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tabs button.active {
+    background-color: #111;
+    color: #fff;
+}

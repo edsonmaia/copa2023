@@ -1,0 +1,47 @@
+.table {
+    width: 100%;
+    max-width: 1000px;
+    margin-block: 1rem;
+    margin-inline: auto;
+    border-collapse: collapse;
+    
+}
+
+.table tr {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.direita {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5rem;
+}
+
+.gols {
+    font-size: 2rem;
+}

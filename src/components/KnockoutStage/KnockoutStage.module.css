@@ -1,0 +1,74 @@
+.jogo {
+    border: 1px solid #eee;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 10px #ccc;
+    margin-bottom: 1rem;
+}
+
+.titulo2 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.jogo_detalhes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.dia, .data, .hora {
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+
+.data {
+    background-color: #111;
+    color: #fff;
+}
+
+.placar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mandante_box, .visitante_box, .placar_box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.placar_box {
+    min-width: 55px;
+    justify-content: center;
+    font-size: 12px;
+    color: #555;
+    gap: 0.5rem;
+}
+
+.mandante_box {
+    width: 100%;
+    margin-right: 1rem;
+    justify-content: flex-end;
+}
+
+.visitante_box {
+    width: 100%;
+    margin-left: 1rem;
+    justify-content: flex-start;
+}
+
+.gols {
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
